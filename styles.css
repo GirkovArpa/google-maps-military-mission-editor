@@ -1,0 +1,37 @@
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#gmaps_context_menu {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  background: #3498db86;
+  list-style: none;
+  border: 2px solid white;
+  color: white;
+}
+
+#gmaps_context_menu li {
+  padding: 4px;
+  background-color: #59ABE3;
+}
+
+#gmaps_context_menu li:hover {
+  background-color: #26C281;
+}
+
+#gmaps_context_menu li a {
+  color: white;
+  font-size: 0.75em;
+  display: block;
+  text-decoration: none;
+}

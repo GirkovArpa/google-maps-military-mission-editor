@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title></title>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="gmaps.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="accordion.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <ul>
+        <li>
+          <input type="checkbox" id="list-item-1">
+          <label for="list-item-1" class="first">Large Formations, Command & Control</label>
+          <ul>
+            <li draggable="true" data-sidc="10031000000000000000">Placeholder</li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="list-item-2">
+          <label for="list-item-2">Infantry, Tanks & Artillery</label>
+          <ul>
+            <li draggable="true" data-sidc="10031000001211000000">Infantry</li>
+            <li draggable="true" data-sidc="10031000001211000001">Infantry Airborne</li>
+            <li draggable="true" data-sidc="10031000001211040000">Infantry Motorized</li>
+            <li draggable="true" data-sidc="10031500001114000000" data-radius="true">Mortar</li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="list-item-3">
+          <label for="list-item-3" class="last">Aviation & Ground-Based Air Defense</label>
+          <ul>
+            <li draggable="true" data-sidc="10031000000000000000">Placeholder</li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="list-item-4">
+          <label for="list-item-4" class="last">Engineer</label>
+          <ul>
+            <li draggable="true" data-sidc="10031000000000000000">Placeholder</li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="list-item-5">
+          <label for="list-item-5" class="last">Command, Transmission & EW</label>
+          <ul>
+            <li draggable="true" data-sidc="10031000000000000000">Placeholder</li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="list-item-6">
+          <label for="list-item-6" class="last">Logistics & Medical</label>
+          <ul>
+            <li draggable="true" data-sidc="10031000000000000000">Placeholder</li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="list-item-7">
+          <label for="list-item-7" class="last">Special Forces</label>
+          <ul>
+            <li draggable="true" data-sidc="10031000000000000000">Placeholder</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div id="map"></div>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="drag_and_drop.js"></script>
+  </body>
+
+</html>
