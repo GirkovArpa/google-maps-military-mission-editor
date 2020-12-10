@@ -11,3 +11,5 @@ Inspired by [map.army](https://www.map.army/).
 ## Attribution
 
 Uses [milsymbol](https://github.com/spatialillusions/milsymbol)
+
+Uses [CSS-only accordion/collapsible list](https://codepen.io/huange/pen/pJqEMj)
