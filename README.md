@@ -10,6 +10,6 @@ Inspired by [map.army](https://www.map.army/).
 
 ## Attribution
 
-Uses [milsymbol](https://github.com/spatialillusions/milsymbol)
+Uses [milsymbol](https://github.com/spatialillusions/milsymbol) to dynamically generate military symbols
 
-Uses [CSS-only accordion/collapsible list](https://codepen.io/huange/pen/pJqEMj)
+Uses [CSS-only accordion/collapsible list](https://codepen.io/huange/pen/pJqEMj) which works without JavaScript
